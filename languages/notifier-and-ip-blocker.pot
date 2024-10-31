@@ -1,0 +1,285 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Notifier and IP Blocker\n"
+"POT-Creation-Date: 2015-12-05 00:33+0200\n"
+"PO-Revision-Date: 2015-12-05 00:35+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../core/naipb-controller.php:188 ../views/tpl-admin-settings.php:10
+msgid "Notifier and IP Blocker"
+msgstr ""
+
+#: ../core/naipb-controller.php:189
+msgid "N&IP Blocker"
+msgstr ""
+
+#: ../core/naipb-controller.php:366
+msgid "Notify from [sitename]"
+msgstr ""
+
+#: ../core/naipb-controller.php:367
+msgid ""
+"\n"
+"\t\t\t<strong>Hello, [name], We got your message.</strong>\n"
+"\t\t\t<strong>Answer would be sent as soon as possible.</strong>\n"
+"\n"
+"\t\t\t&nbsp;\n"
+"\n"
+"\t\t\t<strong>If you didn't do this, someone has done it for you from the "
+"page [url], using your e-mail [email]. We are sorry for this email (we are "
+"apologize).</strong>\n"
+"\n"
+"\t\t\t<strong>You can tell us what is spam [blockedipurl]</strong>\n"
+"\n"
+"\t\t\t&nbsp;\n"
+"\n"
+"\t\t\t<strong>Sincerely, [sitename]</strong>\n"
+"\t\t\t<strong>[siteurl]</strong>\n"
+"\t\t\t"
+msgstr ""
+
+#: ../core/naipb-controller.php:387
+msgid "IP is Blocked"
+msgstr ""
+
+#: ../core/naipb-controller.php:388
+msgid ""
+"<h1 style=\"text-align: center;\">Your IP is Blocked by the Administrator</"
+"h1>"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:11
+msgid ""
+"Can secure your web-site from spam bots and notify users. The many users, "
+"who write a comment want to know, whether the administrator had got it or "
+"not. Send a message where it is written that the comment had been received "
+"and the answer would be sent as soon as possible also if it is spam user can "
+"go to link and blocked IP"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:14
+msgid "Customize options"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:16 ../views/tpl-admin-settings.php:21
+msgid "Settings"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:17 ../views/tpl-admin-settings.php:210
+msgid "Blocked IPs"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:26 ../views/tpl-admin-settings.php:29
+#: ../views/tpl-admin-settings.php:87
+msgid "Notifier"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:31
+msgid "Enable notify"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:35
+msgid "Only send notify when a comment is held for moderation"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:40
+msgid "Send notify via Contact Form 7"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:43
+msgid "Only support default cf7 fields name:"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:54 ../views/tpl-admin-settings.php:57
+msgid "Letter"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:58
+msgid "Subject"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:64
+msgid "Message"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:70
+msgid "Available shortcodes:"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:73
+msgid "Shortcodes work in the fields subject and message"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:84
+msgid "Block IP"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:89
+msgid "Enable Block IP"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:93
+msgid "Exclude with block wp-login page"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:97
+msgid "Blocked page noindex, nofollow"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:101
+msgid "Manually blocked IPs, user can't unblock"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:105
+msgid "Auto block IP"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:105
+msgid "spam amount"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:107
+msgid ""
+"Automatically block IP after spam amount. Zero - disable automatically block "
+"IP."
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:115 ../views/tpl-admin-settings.php:118
+msgid "Block page"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:119
+msgid "Preview Blocked page"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:123
+msgid "Title"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:129
+msgid "Content"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:133
+msgid "Show content in the block page."
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:139
+msgid ""
+"Anyone can unlock your IP automatically, confirming that he is not a robot."
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:141
+msgid "Enable Google reCAPTCHA"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:145
+msgid "Site Key (Public)"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:150
+msgid "Secret Key (Private)"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:152
+msgid "Get the public key and private key"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:152
+msgid "Manage reCAPTCHA API keys"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:173
+msgid "Truncate plugin database when deactivate"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:183 ../views/tpl-admin-settings.php:186
+msgid "Restore default"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:189
+msgid "Default settings"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:191
+msgid "Restore all settings to default"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:197
+msgid "Yes"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:198
+msgid "No"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:200
+msgid "Are you sure?"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:213
+msgid "Your current IP Address:"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:215
+msgid "Don't block your own IP."
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:216
+msgid "If you block your own IP Address you will be unable to view your site."
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:220
+msgid "Search IP:"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:224
+msgid "Search"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:231 ../views/tpl-admin-settings.php:263
+msgid "No."
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:232 ../views/tpl-admin-settings.php:264
+msgid "IP Address"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:233 ../views/tpl-admin-settings.php:265
+msgid "Status"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:234 ../views/tpl-admin-settings.php:251
+#: ../views/tpl-admin-settings.php:266
+msgid "Delete"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:248
+msgid "Are you sure deleting IP"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:257
+msgid "Not found blocked IPs"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:273
+msgid "Block new IP:"
+msgstr ""
+
+#: ../views/tpl-admin-settings.php:277
+msgid "Block"
+msgstr ""
+
+#: ../views/tpl-page-blocked.php:28
+msgid "You can unlock your IP Address!"
+msgstr ""
